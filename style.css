@@ -87,14 +87,65 @@ a:visited {
   padding-bottom: 30px;
   margin-left: -50px;
   margin-bottom: 20px;
+  box-shadow: 0px 10px 13px -7px #6d6d6d;
 }
 
 .letsdothis {
   font-size: 22px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
 }
 
+.leftrightform {
+  display: flex;
+  gap: 100px;
+}
 
 button {
   margin-bottom: 30px;
+}
+
+input {
+  width: 250px;
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+  height: 25px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+input:focus {
+  outline: none;
+  border-color: blue;
+  box-shadow: 5px 6px 12px -3px rgba(134, 134, 134, 0.56);
+}
+
+#password:invalid,
+#confirm_password:invalid {
+  border-color: red;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #596d48;
+  color: white;
+  font-size: 19px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  outline: none;
+  border: 1px solid #596d48;
+  border-radius: 9px;
+  box-shadow: 5px 6px 12px -3px rgba(134, 134, 134, 0.56);
+}
+
+input[type="email"]:invalid {
+  border-color: red;
+}
+
+#login {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #596d48;
 }
