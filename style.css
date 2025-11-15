@@ -1,20 +1,19 @@
 @font-face {
-  font-family: "Kaushan Script";
-  src: url("/fonts/KaushanScript-Regular.woff2") format("woff2"),
-    url("/fonts/KaushanScript-Regular.woff") format("woff");
+  font-family: "Norse Bold";
+  src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 body {
-  font-family: "Kaushan Script";
+  font-family: "Norse Bold";
   background-color: whitesmoke;
   display: flex;
-  gap: 20px;
   margin: 0;
+  gap: 50px;
 }
-.right-side-container {
+.left-side-container {
   position: relative;
 }
 
@@ -59,7 +58,43 @@ a:visited {
   color: inherit;
 }
 
-form {
+.textone {
+  width: 800px;
+}
+.texttwo {
+  width: 800px;
+}
+
+.text-container {
+  display: block;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-weight: bolder;
+  gap: 30px;
+}
+
+.form-without-button {
+  box-sizing: content-box;
+  position: relative;
+  box-sizing: border-box;
   background-color: white;
-  border-image: linear-gradient(to bottom, grey, white);
+  background-size: 100%;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  margin-left: -50px;
+  margin-bottom: 20px;
+}
+
+.letsdothis {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  margin-bottom: 30px;
 }
